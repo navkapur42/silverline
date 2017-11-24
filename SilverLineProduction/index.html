@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<meta name="description" content="Video House">
+	<meta name="keywords" content="Silverline Proudction, Video House" /> 
+	<meta name="author" content="Naveen Kapoor"> 
+	<title>Silverline Production</title> 
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/prettyPhoto.css" rel="stylesheet"> 
+	<link href="css/font-awesome.min.css" rel="stylesheet"> 
+	<link href="css/animate.css" rel="stylesheet"> 
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet"> 
+	<link href="css/prettyPhoto.css" rel="stylesheet"> 
+	<link href="css/jquery.sidr.dark.css" rel="stylesheet"> 
+	<link href="css/reset.css" rel="stylesheet"> 
+	<link href="css/lightslider.css" rel="stylesheet"> 
+	<style>
+	table { width:100%;
+			border: 1px solid ;
+			 cellpadding :10 ;
+			 cellspacing :10; 
+		}
+	tr {  text-align: center;  }
+	td {border : 1px solid }
+	ul{
+			list-style: none outside none;
+		    padding-left: 0;
+            margin: 0;
+		}
+        .demo .item{
+            margin-bottom: 60px;
+        }
+		.content-slider li{
+		    text-align: center;
+		    color: #FFF;
+		}
+		.content-slider h3 {
+		    margin: 0;
+		    padding: 70px 0;
+		}
+		.demo{
+			
+			width: 100%;
+		}
+    </style>
+	
+	
+	<!--[if lt IE 9]> <script src="js/html5shiv.js"></script> 
+	<script src="js/respond.min.js"></script> <![endif]-->
+	
+</head><!--/head-->
+<body onscroll="CheckPage()">
+	<div class="preloader">
+		<div class="preloder-wrap">
+		<div class="preloder-inner"> 
+				<div class="ball"></div> 
+				<div class="ball"></div> 
+				<div class="ball"></div> 
+				<div class="ball"></div> 
+				<div class="ball"></div> 
+				<div class="ball"></div> 
+				<div class="ball"></div>
+			</div> 
+		</div>
+	</div><!--/.preloader-->
+	<header id="navigation"> 
+		<div class="navbar navbar-inverse navbar-fixed-top" role="banner"> 
+			<div class="container"> 
+				<div class="navbar-header"> 
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
+						<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> 
+					</button> 
+					<a class="navbar-brand" href="index.html"><h2 style="margin-top:5px;margin-bottom:0px"><img alt="Logo Small" src="images/logo-small.png" /></h2></a> 
+				</div>
+				<div class="collapse navbar-collapse"> 
+					<ul class="nav navbar-nav navbar-right" id="menu"> 
+						<li  class="scroll active"><a href="#navigation" onclick="start()">Home</a></li> 
+						<li class="scroll" ><a href="#portfolio">Portfolio</a></li> 
+						<li class="scroll"><a href="#clients">Clients</a></li> 
+						<li class="scroll"><a href="#our-team">About Us</a></li> 
+					
+						<li class="scroll"><a href="#contact">Contact Us</a></li> 						
+						
+						
+						
+					</ul> 
+				</div> 
+			</div> 
+		
+		</div><!--/navbar--> 
+	
+	</header> <!--/#navigation--> 
+	
+	<section id="home">
+		<h6>Home </h6>
+		<div class="home-pattern"></div>
+		<div id="main-carousel" class="carousel slide" data-ride="carousel"> 
+			<ol class="carousel-indicators">
+				<li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+				<li data-target="#main-carousel" data-slide-to="1"></li>
+				<li data-target="#main-carousel" data-slide-to="2"></li>
+				<li data-target="#main-carousel" data-slide-to="3"></li>
+			</ol><!--/.carousel-indicators--> 
+			<div class="carousel-inner">
+				<div  class="item active sitem"  style="background-image: url(images/home/HP4.jpg)">  </div>
+				<div  class="item sitem"  style="background-image: url(images/home/HP3.jpg)"> </div> 
+			<div  class="item sitem"   style="background-image: url(images/home/HP2.jpg)"> </div>
+			<div  class="item sitem"  style="background-image: url(images/home/HP1.jpg)"> </div>
+		</div><!--/.carousel-inner-->
+
+		<a class="carousel-left member-carousel-control " href="#main-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+		<a class="carousel-right member-carousel-control " href="#main-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
+	</div> 
+</section><!--/#home-->
+
+
+
+
+<!--   home section for mobile  ends-->
+
+
+
+
+		<section id="portfolio">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-*-8 col-*-4">
+						<h2 class="title-one">Portfolio</h2>
+						
+					</div>
+				</div>
+				<ul class="portfolio-filter text-center">
+					<li><a class="btn btn-default active" href="#" data-filter="*" onclick="muteVideo()">All</a></li>
+					<li ><a class="btn btn-default" href="#" data-filter=".corporate" onclick="muteVideo()">Corporate</a></li>
+					<li><a class="btn btn-default" href="#" data-filter=".government" onclick="muteVideo()">Government</a></li>
+					<li><a class="btn btn-default" href="#" data-filter=".documentaries" onclick="muteVideo()">Documentaries</a></li>
+					<li><a class="btn btn-default" href="#" data-filter=".animationandgraphics" onclick="muteVideo()">Animation & Graphics</a></li>
+					<li><a class="btn btn-default" href="#" data-filter=".entertainment" onclick="muteVideo()">Entertainment</a></li>
+					
+				</ul><!--/#portfolio-filter-->
+				<div class="portfolio-items">
+					<div class="col-sm-3 col-xs-12 portfolio-item corporate">
+						<div class="view efffect">
+							<div class="portfolio-image">
+								<img alt="Opening Door" src="images/portfolio/corporate/Opening_Doors_Hilton.jpg" ></div> 
+								<div class="mask text-center">
+									<h3> Opening Doors Hilton </h3>
+									<!--<h4>Lorem ipsum dolor sit amet consectetur</h4>
+									<a href="#"><i class="fa fa-link"></i></a>-->
+									<a href="https://youtu.be/uTsbqPb0Ra8" data-gallery="prettyPhoto"><i class="fa fa-play"></i></a>
+								</div>
+							</div>
+						</div>
+					<div class="col-sm-3 col-xs-12 portfolio-item corporate">
+						<div class="view efffect">
+							<div class="portfolio-image">
+								<img alt="Electa Gobeyond" src="images/portfolio/corporate/Electa_Gobeyond.jpg" >
+							</div> 
+						<div class="mask text-center">
+							<h3>Electa Gobeyond</h3>
+							<a href="https://youtu.be/F58g2i7eZ1k" data-gallery="prettyPhoto"><i class="fa fa-play"></i></a>
+						</div>
+					</div>
+				</div>
+					<div class="col-sm-3 col-xs-12 portfolio-item corporate">
+						<div class="view efffect">
+							<div class="portfolio-image">
+								<img src="images/portfolio/corporate/NDR_corporate_AV.jpg" alt="NDR corporate">
+							</div> <div class="mask text-center">
+							<h3>NDR corporate AV</h3>
+							<a href="https://youtu.be/NfPBVo3Gits" data-gallery="prettyPhoto"><i class="fa fa-play"></i></a>
+						</div>
+					</div>
+					</div>
+					<div class="col-sm-3 col-xs-12 portfolio-item corporate">
+						<div class="view efffect">
+							<div class="portfolio-image">
+								<img alt="Ford walk throught" src="images/portfolio/corporate/Ford_Walk_Through.jpg" >
+							</div> 
+							<div class="mask text-center">
+								<h3>Ford Walk Through</h3>
+								<!--<h4>Lorem ipsum dolor sit amet consectetur</h4>
+								<a href="#"><i class="fa fa-link"></i></a> -->
+								<a href="https://youtu.be/zyCxfGT39NE" data-gallery="prettyPhoto"><i class="fa fa-play"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-12 portfolio-item corporate">
+						<div class="view efffect">
+							<div class="portfolio-image">
+								<img  src="images/portfolio/corporate/Xiaomi_cirporate_AV.jpg" alt="">
+							</div> 
+							<div class="mask text-center">
+								<h3>Xiaomi cirporate</h3>
+								<!--<h4>Lorem ipsum dolor sit amet consectetur</h4>
+								<a href="#"><i class="fa fa-link"></i></a> -->
+								<a href="https://youtu.be/oVURjfAgj8A" data-gallery="prettyPhoto"><i class="fa fa-play"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-12 portfolio-item corporate">
+						<div class="view efffect">
+							<div class="portfolio-image">
+								<img  src="images/portfolio/corporate/BMGF_GIRINDRE_FAREWELL.jpg" alt="BMGF">
+							</div> 
+							<div class="mask text-center">
+								<h3>BMGF GIRINDRE FAREWELL</h3>
+								<!--<h4>Lorem ipsum dolor sit amet consectetur</h4>
+								<a href="#"><i class="fa fa-link"></i></a> -->
+								<a href="https://youtu.be/T4dx06co4eY" data-gallery="prettyPhoto"><i class="fa fa-play"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-12 portfolio-item corporate">
+						<div class="view efffect">
+							<div class="portfolio-image">
+								<img alt="Ford price promise" src="images/portfolio/corporate/Ford_price_promise.jpg" >
+							</div> 
+							<div class="mask text-center">
+								<h3>Ford price promise</h3>
+								<!--<h4>Lorem ipsum dolor sit amet consectetur</h4>
+								<a href="#"><i class="fa fa-link"></i></a> -->
+								<a href="https://youtu.be/NvkYcdtfDlc" data-gallery="prettyPhoto"><i class="fa fa-play"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-12 portfolio-item corporate">
+						<div class="view efffect">
+							<div class="portfolio-image">
+								<img  src="images/portfolio/corporate/Hygiene_index_av.jpg" alt="Hygiene index">
+							</div> 
+							<div class="mask text-center">
+								<h3>Hygiene index av</h3>
+								<!--<h4>Lorem ipsum dolor sit amet consectetur</h4>
+								<a href="#"><i class="fa fa-link"></i></a> -->
+								<a href="https://youtu.be/iRYCMtQFxhU" data-gallery="prettyPhoto"><i class="fa fa-play"></i></a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-sm-3 col-xs-12 portfolio-item corporate">
+						<div class="view efffect">
+							<div class="portfolio-image">
+								<img  src="images/portfolio/corporate/Facebook_Jugnoo_AV.jpg" alt="facebook">
+							</div> 
+							<div class="mask text-center">
+								<h3>Facebook Jugnoo AV</h3>
+								<!--<h4>Lorem ipsum dolor sit amet consectetur</h4>
+								<a href="#"><i class="fa fa-link"></i></a> -->
+								<a href="https://youtu.be/yNe0P7nwSso" data-gallery="prettyPhoto"><i class="fa fa-play"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-12 portfolio-item corporate">
+						<div class="view efffect">
+							<div class="portfolio-image">
+								<img  src="images/portfolio/corporate/FB_BabyChakra_AV.jpg" alt="Fb baby">
+							</div> 
+							<div class="mask text-center">
+								<h3>FB BabyChakra AV</h3>
+								<!--<h4>Lorem ipsum dolor sit amet consectetur</h4>
+								<a href="#"><i class="fa fa-link"></i></a> -->
+								<a href="https://youtu.be/_BrQZ2_oOMw" data-gallery="prettyPhoto"><i class="fa fa-play"></i></a>
+							</div>
+						</div>
+					</div>
+				
+					<div class="col-sm-3 col-xs-12 portfolio-item government">
+						<div class="view efffect">
+							<div class="portfolio-image">
+								<img  src="images/portfolio/goverment/NAD_launch_video.jpg" alt="Nad launch video">
+							</div> 
+							<div class="mask text-center">
+								<h3>NAD launch video</h3>
+								<!--<h4>Lorem ipsum dolor sit amet consectetur</h4>
+								<a href="#"><i class="fa fa-link"></i></a> -->
+								<a href="https://youtu.be/lBb81xpXMRo" data-gallery="prettyPhoto"><i class="fa fa-play"></i></a>
+							</div>
+						</div>
+					</div>				
+					<div class="col-sm-3 col-xs-12 portfolio-item government documentaries">
+						<div class="view efffect">
+							<div class="portfolio-image">
+								<img  src="images/portfolio/goverment/Modi_gov@1yr.jpg" alt="modi govt">
+							</div> 
+							<div class="mask text-center">
+								<h3>Modi gov@1yr by MOH</h3>
+								<!--<h4>Lorem ipsum dolor sit amet consectetur</h4>
+								<a href="#"><i class="fa fa-link"></i></a> -->
+								<a href="https://youtu.be/Cz-61emL9rY" data-gallery="prettyPhoto"><i class="fa fa-play"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-12 portfolio-item government">
+						<div class="view efffect">
+							<div class="portfolio-image">
+								<img src="images/portfolio/goverment/Swayam_Prabha_launch_AV.jpg" alt="Swayam Prabha">
+							</div> 
+							<div class="mask text-center">
+								<h3>Swayam Prabha launch AV</h3>
+								<!--<h4>Lorem ipsum dolor sit amet consectetur</h4>
+								<a href="#"><i class="fa fa-link"></i></a> -->
+								<a href="https://youtu.be/ppbbT8Bj1Pw" data-gallery="prettyPhoto"><i class="fa fa-play"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-12 portfolio-item government">
+						<div class="view efffect">
+							<div class="portfolio-image">
+								<img  src="images/portfolio/goverment/Film_for_Dept_of_Epigraphy.jpg" alt="Film for Dept">
+							</div> 
+							<div class="mask text-center">
+								<h3>Film for Dept of Epigraphy</h3>
+								<!--<h4>Lorem ipsum dolor sit amet consectetur</h4>
+								<a href="#"><i class="fa fa-link"></i></a> -->
+								<a href="https://youtu.be/OwDaP9UKZiQ" data-gallery="prettyPhoto"><i class="fa fa-play"></i></a>
+							</div>
+						</div>
+					</div>	
+					<div class="col-sm-3 col-xs-12 portfolio-item government">
+						<div class="view efffect">
+							<div class="portfolio-image">
+								<img alt="Hand washing promo" src="images/portfolio/goverment/Hand_washing_Promo.jpg" >
+							</div> 
+							<div class="mask text-center">
+								<h3>Hand washing Promo</h3>
+								<!--<h4>Lorem ipsum dolor sit amet consectetur</h4>
+								<a href="#"><i class="fa fa-link"></i></a> -->
+								<a href="https://youtu.be/vLWIF8wsZD0" data-gallery="prettyPhoto"><i class="fa fa-play"></i></a>
+							</div>
+						</div>
+					</div>	
+					<div class="col-sm-3 col-xs-12 portfolio-item government documentaries">
+						<div class="view efffect">
+							<div class="portfolio-image">
+								<img  src="images/portfolio/goverment/Towards_Swachh_Bharat_Promo.jpg" alt="Towards swachh bhart">
+							</div> 
+							<div class="mask text-center">
+								<h3>Towards Swachh Bharat Promo</h3>
+								<!--<h4>Lorem ipsum dolor sit amet consectetur</h4>
+								<a href="#"><i class="fa fa-link"></i></a> -->
+								<a href="https://youtu.be/sOFLbPduStA" data-gallery="prettyPhoto"><i class="fa fa-play"></i></a>
+							</div>
+						</div>
+					</div>	
+						
+						
+						
+						
+						
+						
+						<div class="col-sm-3 col-xs-12 portfolio-item documentaries">
+							<div class="view efffect" >
+								<div class="portfolio-image">
+									<img  src="images/portfolio/documentaries/a_hope_for_every_woman.jpg" alt="a hope ">
+								</div> 
+								<div class="mask text-center">
+									<h3>a hope for every woman</h3>
+								<!--	<h4>Lorem ipsum dolor sit amet consectetur</h4>
+									<a href="#"><i class="fa fa-link"></i></a> -->
+									<a href="https://youtu.be/zZ8xCOef7Ec" data-gallery="prettyPhoto"><i class="fa fa-play"></i></a>
+								</div>
+							</div>
+						</div>
+						
+						
+						
+					<div class="col-sm-3 col-xs-12 portfolio-item documentaries">
+						<div class="view efffect">
+							<div class="portfolio-image">
+								<img  src="images/portfolio/corporate/Hilton_Sundara_soaps.jpg" alt="hilton sundara">
+							</div> 
+							<div class="mask text-center">
+								<h3>Hilton Sundara soaps</h3>
+								<!--<h4>Lorem ipsum dolor sit amet consectetur</h4>
+								<a href="#"><i class="fa fa-link"></i></a> -->
+								<a href="https://youtu.be/ano2e0VinMY" data-gallery="prettyPhoto"><i class="fa fa-play"></i></a>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col-sm-3 col-xs-12 portfolio-item documentaries government">
+						<div class="view efffect">
+							<div class="portfolio-image">
+								<img  src="images/portfolio/goverment/Film_on_Immunization.jpg" alt="Film on Immunization">
+							</div> 
+							<div class="mask text-center">
+								<h3>Film on Immunization</h3>
+								<!--<h4>Lorem ipsum dolor sit amet consectetur</h4>
+								<a href="#"><i class="fa fa-link"></i></a> -->
+								<a href="https://youtu.be/tEyOWjEgZM4" data-gallery="prettyPhoto"><i class="fa fa-play"></i></a>
+							</div>
+						</div>
+					</div>	
+					<div class="col-sm-3 col-xs-12 portfolio-item documentaries">
+						<div class="view efffect">
+							<div class="portfolio-image">
+								<img  src="images/portfolio/documentaries/End_the_Shame.jpg" alt="End the shame">
+							</div> 
+							<div class="mask text-center">
+								<h3>End the Shame</h3>
+								<!--<h4>Lorem ipsum dolor sit amet consectetur</h4>
+								<a href="#"><i class="fa fa-link"></i></a> -->
+								<a href="https://youtu.be/_BY_aCSmg0A" data-gallery="prettyPhoto"><i class="fa fa-play"></i></a>
+							</div>
+						</div>
+					</div>	
+					
+
+
+
+
+					
+					<div class="col-sm-3 col-xs-12 portfolio-item animationandgraphics">
+						<div class="view efffect">
+							<div class="portfolio-image">
+								<img  src="images/portfolio/animationandgraphics/EVM_safe.jpg" alt="EVM">
+							</div> 
+							<div class="mask text-center">
+								<h3>EVM safe</h3>
+								<a href="https://youtu.be/SGA2gl4r-oI" data-gallery="prettyPhoto"><i class="fa fa-play"></i></a>
+							</div>
+						</div>
+					</div>
+					
+					
+						
+							<div class="col-sm-3 col-xs-12 portfolio-item entertainment">
+								<div class="view efffect">
+									<div class="portfolio-image">
+										<img  src="images/portfolio/entertainment/Music_video.jpg" alt="Music video"></div> 
+										<div class="mask text-center">
+											<h3>Music video</h3>
+											<a href="https://youtu.be/b8IX23LqJ0U" data-gallery="prettyPhoto"><i class="fa fa-play"></i></a>
+										</div>
+									</div>
+							</div>
+						<div class="col-sm-3 col-xs-12 portfolio-item animationandgraphics">
+								<div class="view efffect">
+									<div class="portfolio-image">
+										<img  src="images/portfolio/animationandgraphics/OCN-promo2.jpg" alt="OCN"></div> 
+										<div class="mask text-center">
+											<h3>OCN promo2</h3>
+											<a href="https://youtu.be/ZHsOzQypcEw" data-gallery="prettyPhoto"><i class="fa fa-play"></i></a>
+										</div>
+									</div>
+								</div>
+								
+						</div>
+			</div>
+					</section> <!--/#portfolio-->
+					
+					
+
+					<section id="clients" class="parallax-section">
+						<div class="container">
+							<div class="clients-wrapper">
+								<div class="row text-center">
+									<div class="col-*-8 col-*-offset-4 ">
+										<h2 class="title-one">Clients  </h2>
+										
+									</div>
+								</div>
+								<div class="row">
+								<div >
+									<table   class="table" >
+											
+											<tr >
+												<td><img alt="c5"  src="images/clients/clientslogo/c5.jpg"></td>
+												<td><img alt="c1"  src="images/clients/clientslogo/c1.jpg"></td>
+												<td><img alt="c19"  src="images/clients/clientslogo/c19.jpg"></td>
+												<td><img alt="c6"  src="images/clients/clientslogo/c16.jpg"></td>
+											</tr>
+											<tr >
+												<td><img alt="c7"  src="images/clients/clientslogo/c7.jpg"></td>
+												<td><img alt="c14"  src="images/clients/clientslogo/c14.jpg"></td>
+												<td><img alt="c6"  src="images/clients/clientslogo/c6.jpg"></td>
+												<td><img alt="c4"  src="images/clients/clientslogo/c4.jpg"></td>
+											</tr>
+											<tr >
+											<td><img alt="c3"  src="images/clients/clientslogo/c3.jpg"></td>
+												<td><img alt="c15"  src="images/clients/clientslogo/c15.jpg"></td>
+												<td><img alt="c8"  src="images/clients/clientslogo/c8.jpg"></td>
+												<td><img alt="c2"  src="images/clients/clientslogo/c2.jpg"></td>
+											</tr>	
+											<tr >
+												<td><img alt="c9"  src="images/clients/clientslogo/c9.jpg"></td>
+												<td><img alt="c10"  src="images/clients/clientslogo/c10.jpg"></td>
+												<td><img alt="c11"  src="images/clients/clientslogo/c11.jpg"></td>
+												<td><img alt="c12"  src="images/clients/clientslogo/c12.jpg"></td>
+											</tr>
+											<tr><td><img alt="c13"  src="images/clients/clientslogo/c13.jpg"></td>
+												<td><img alt="c17"  src="images/clients/clientslogo/c17.jpg"></td>
+												<td><img alt="c18"  src="images/clients/clientslogo/c18.jpg"></td>
+												<td><img alt="c20"  src="images/clients/clientslogo/c20.jpg"></td>
+											</tr>
+											
+											
+											</table>
+										
+									</div>	
+									</div>
+								</div>
+							<!--	</div> -->
+							</div>
+						
+					</section><!--/#clients-->
+					
+					
+					
+					<section id="our-team">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-sm-8 col-sm-offset-2">
+						<h2 class="title-one">About us</h2>
+						<p style="text-align:justify">Silverline productions is a team of creative people with wide knowledge and experience in films & video production started with a vision to narrate stories most effectively. We offer one stop solution for corporate films, documentaries, Digital/social media films & campaigns, graphics and animations of both 2D & 3D, training videos, marketing films in India and overseas.</p>
+					</div>
+				</div>
+				
+				
+				
+				<!--<div id="team-carousel" class="carousel slide" data-interval="false">
+					<a class="member-left" href="#team-carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+					<a class="member-right" href="#team-carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+				<div class="carousel-inner team-members">
+						<div class="row item active">
+							<div class="col-xs-12 col-sm-6 col-md-3">
+								<div class="single-member">
+									<img alt="" src="images/our-team/member1.jpg" alt="team member" />
+									<h4>Koteshwar Rao</h4>
+									<h5>Founder & Executive Director</h5>
+									<p>Indian Television Academy Awards  Winner 2006 and 2008 for Best Editing, Asian Television Awards.</p>
+									<div class="socials">
+										<a href="#"><i class="fa fa-facebook"></i></a>
+										<a href="#"><i class="fa fa-twitter"></i></a>
+										<a href="#"><i class="fa fa-google-plus"></i></a>
+										<a href="#"><i class="fa fa-dribbble"></i></a>
+										<a href="#"><i class="fa fa-linkedin"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-3">
+								<div class="single-member">
+									<img alt="" src="images/our-team/member3.jpg" alt="team member" />
+									<h4>Ashish Kumar</h4>
+									<h5>Director & Co-Partner</h5>
+									<p>Promising entrepreneur. Decade experience in broadcast media and social media.</p>
+									<div class="socials">
+										<a href="#"><i class="fa fa-facebook"></i></a>
+										<a href="#"><i class="fa fa-twitter"></i></a>
+										<a href="#"><i class="fa fa-google-plus"></i></a>
+										<a href="#"><i class="fa fa-dribbble"></i></a>
+										<a href="#"><i class="fa fa-linkedin"></i></a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-xs-12 col-sm-6 col-md-3">
+								<div class="single-member">
+									<img alt="" src="images/our-team/member2.jpg" alt="team member" />
+									<h4>Kapil Sharma</h4>
+									<h5>Creative Head</h5>
+									<p> Two decades of experience, directed and produced diverse documentaries and films for Doordarshan, AIR and NGOs</p>
+									<div class="socials">
+										<a href="#"><i class="fa fa-facebook"></i></a>
+										<a href="#"><i class="fa fa-twitter"></i></a>
+										<a href="#"><i class="fa fa-google-plus"></i></a>
+										<a href="#"><i class="fa fa-dribbble"></i></a>
+										<a href="#"><i class="fa fa-linkedin"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-3">
+								<div class="single-member">
+									<img alt="" src="images/our-team/member4.jpg" alt="team member" />
+									<h4>Divya Shah</h4>
+									<h5>Co-Founder & Writer</h5>
+									<p>Passionate journalist & writer with 8 years of experience. Laadli award winner by UNFPA.</p>
+									<div class="socials">
+										<a href="#"><i class="fa fa-facebook"></i></a>
+										<a href="#"><i class="fa fa-twitter"></i></a>
+										<a href="#"><i class="fa fa-google-plus"></i></a>
+										<a href="#"><i class="fa fa-dribbble"></i></a>
+										<a href="#"><i class="fa fa-linkedin"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					
+					</div>
+				</div>  -->
+			</div>
+			<br>
+			<!-- slider starts here -->
+			<div class="demo">
+        <div class="item" >
+            <ul id="content-slider" class="content-slider">
+ 			<li data-thumb="images\slider/slide1.jpg"> 
+                        <img alt="slider1" src="images/slider/slide1.jpg" />
+                         </li>
+                    <li data-thumb="images/slider/slide2.jpg"> 
+                        <img alt="slider2" src="images/slider/slide2.jpg" />
+                         </li>
+                    <li data-thumb="images/slider/slide3.jpg"> 
+                        <img alt="slider3" src="images/slider/slide3.jpg" />
+                         </li>
+                    <li data-thumb="images/slider/slide4.jpg"> 
+                        <img alt="slider4" src="images/slider/slide4.jpg" />
+                         </li>
+                    <li data-thumb="images/slider/slide6.jpg"> 
+                        <img alt="slider6" src="images/slider/slide6.jpg" />
+                         </li>
+					<li data-thumb="images/slider/slide7.jpg"> 
+                        <img alt="slider7" src="images/slider/slide7.jpg" />
+                         </li>
+					<li data-thumb="images/slider/slide9.jpg"> 
+                        <img alt="slider9" src="images/slider/slide9.jpg" />
+                         </li>
+					<li data-thumb="images/slider/slide10.jpg"> 
+                        <img alt="slider10" src="images/slider/slide10.jpg" />
+                         </li>
+                    
+            </ul>
+        </div>
+		</div>
+		<!-- slider ends here -->		
+			
+		</section><!--/#Our-Team-->
+
+
+		
+		<section id="contact">
+		<div class="container text-center">
+		<div class="col-sm-8 col-sm-offset-2">
+		<h2 class="title-one">Contact Us</h2>
+		<br><br>
+		</div>
+        <div class="row">
+        	<div class=" col-lg-6 col-sm-7 wow fadeInLeft">
+            	<div class="contact-info-box address clearfix">
+                	<h3><i class=" icon-map-marker"></i>Address:</h3>
+                	<span>Silver Line Productions LLP <br />Sector-78, Noida 201301</span>
+                </div>
+                <div class="contact-info-box phone clearfix">
+                	<h3><i class="fa-phone"></i>Phone:</h3>
+                	<span>+91 9971530949, +91 9891439104</span>
+                </div>
+                <div class="contact-info-box email clearfix">
+                	<h3><i class="fa-pencil"></i>email:</h3>
+                	<span> info@silverlineproductions.in</span>
+                </div>
+            	
+             
+                <ul class="social-link">
+                	<li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li class="pinterest"><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                    <li class="gplus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li class="dribbble"><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                </ul>
+            </div>
+        	<div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
+            	<div class="form">
+                	
+                    <div id="sendmessage">Your message has been sent. Thank you!</div>
+                    <div id="errormessage"></div>
+                    <form action="mailto:navkapur42@gmail.com" method="post"  class="contactForm">
+                        <div class="form-group">
+                            <input type="text" name="name" class="form-control input-text" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                            <div class="validation"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control input-text" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                            <div class="validation"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control input-text" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                            <div class="validation"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control input-text text-area" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                            <div class="validation"></div>
+                        </div>
+                        
+                        <div class="text-center"><button type="submit" class="input-btn">Send Message</button></div>
+                    </form>
+                </div>	
+            </div>
+        </div>
+</div>
+		</section>
+						 <!--/#contact--> 
+
+	<footer id="footer"> 
+		<div class="container"> 
+			<div class="text-center"> 
+				<p>Copyright &copy; 2017 Silver Line Productions | All Rights Reserved <small><a href="https://n2ksystems.com/">Designed &amp; developed by N2KSystems</a></small></p> 
+			</div> 
+		</div> 	
+	</footer> <!--/#footer--> 
+
+	<script type="text/javascript" src="js/jquery.js"></script> 
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/smoothscroll.js"></script> 
+	<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+	<script type="text/javascript" src="js/jquery.parallax.js"></script> 
+	<script type="text/javascript" src="js/main.js"></script> 
+	<script type="text/javascript" src="js/lightslider.js"></script> 
+
+    
+	<script type="text/javascript" >
+	
+    	 $(document).ready(function() {
+			$("#content-slider").lightSlider({
+            	loop:true,
+                keyPress:true,
+				auto:true,
+				
+			});
+            $('#image-gallery').lightSlider({
+                gallery:true,
+                item:2,
+                thumbItem:9,
+                slideMargin: 0,
+                speed:500,
+                auto:true,
+                loop:true,
+                onSliderLoad: function() {
+                    $('#image-gallery').removeClass('cS-hidden');
+                }  
+            });
+		});
+    
+	function CheckPage(){
+		 
+		var currentScrollPosition = $(document).scrollTop();
+		if(currentScrollPosition <200){
+			$('#bgvid').prop('muted', false);
+		}else{
+			$('#bgvid').prop('muted', true);
+		}
+	if ($(window).width()  < 800){
+		$('#bgvid').prop('muted', true);
+	}	
+	
+    }
+	
+	if ($(window).width()  < 800){
+		$('#bgvid').prop('muted', true);
+	}
+	function muteVideo(){
+	$('#bgvid').prop('muted', true);
+		
+	
+	}
+	
+	
+	
+	
+	</script> 
+	</body>
+</html>

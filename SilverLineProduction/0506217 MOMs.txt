@@ -1,0 +1,44 @@
+HOME PAGE
+
+
+
+
+1) border backgroup red color should be removed. black border required. 
+2) Animated logo of silver light is required.  
+3)  Only red border on getting started botton. no backgroup color is required. 
+4)  backgroud images should be provided by silderlight team. 
+5) menu order should be changed it should be . 
+
+A)  	HOME 	
+B)		PORTFOLIO
+C)		OUR CLIENTS
+D)		ABOUT  
+E)		CONTACT 
+
+PORTFOLIO PAGE
+
+1)   categories name should be finalize by silverline team. 
+2)  provide all the videos link and there categireies name by silverline team. 
+3)  client names and there logo should be provided by silverline team 
+4) backgroud of page should be white. 
+5) no boarder is required for videos 
+6) backgroud of categories buttons should be black. 
+
+
+
+OUR CLIENTS
+
+8) backgroud of clients should be white . 
+9) we need to show only client logos in desent manner. 
+
+ABOUT US
+
+
+10) Text for About us should be provide by silverline team.
+11) team member photos and there designations details should be shared by silverline team. 
+12) when we click on team member image it will open complte detail in new window . 
+13)  contact us page should be same as templte 1 . 
+
+
+
+
